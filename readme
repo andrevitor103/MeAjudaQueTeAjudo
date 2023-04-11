@@ -1,0 +1,40 @@
+##Projeto desenvolvido em curso youtube: @andrevitor103.
+
+1. npm init -y
+2. npm install typescript ts-node
+3. npx tsc --init
+4. npm install express @types/express
+
+5. npm install jest @types/jest ts-jest  (testes)
+6. npx ts-jest config:init
+
+7. configuração tsconfig.json
+
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Projects */
+    "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
+
+    /* Language and Environment */
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+
+    /* Modules */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+
+    /* Emit */
+    "outDir": "./",                                   /* Specify an output folder for all emitted files. */
+
+    /* Interop Constraints */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+  },
+  "include": [
+    "src",
+    "test"
+  ]
+}
+
